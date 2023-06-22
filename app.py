@@ -32,7 +32,7 @@ def predict(image):
     return pred[0]
 
 # Load the trained model from the pickle file
-model_file_path = 'model.pkl'
+model_file_path = 'model.sav'
 with open(model_file_path, 'rb') as file:
     model = pickle.load(file)
 
